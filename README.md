@@ -19,3 +19,9 @@ Entrada de textos
 <div align="center">
   <img src="./screenshots/add.png" width="150px" style="align: center">
 </div>
+
+`Checkbox.py`
+
+<div align="center">
+  <img src="./screenshots/checkbox.png" width="250px" style="align: center">
+</div>
