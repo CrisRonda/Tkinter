@@ -3,18 +3,19 @@ from tkinter import *
 # Configuración de la raíz
 root = Tk()
 
-# Variables dinámicas
-texto = StringVar()
-texto.set("Un nuevo texto")
+label = Label(root, text="Nombre de usuario")
+label.grid(row=0, column=0, sticky="w", padx=5, pady=5)
 
-Label(root, text="¡Hola mundo!").pack(anchor="nw")
-label = Label(root, text="¡Otra etiqueta!")
-label.pack(anchor="center")
-Label(root, text="¡Última etiqueta!").pack(anchor="se")
+entry = Entry(root)
+entry.grid(row=0, column=1, padx=5, pady=5)
+entry.config(justify="right", state="normal")
 
-label.config(bg="green", fg="blue", font=("Verdana", 24))
-label.config(textvariable=texto)
+label2 = Label(root, text="Contraseña")
+label2.grid(row=1, column=0, sticky="w", padx=5, pady=5)
 
+entry2 = Entry(root)
+entry2.grid(row=1, column=1, padx=5, pady=5)
+entry2.config(justify="center", show="*")
 
 # Finalmente bucle de la aplicación
 root.mainloop()
