@@ -7,6 +7,8 @@ def hola():
 
 # Configuración de la raíz
 root = Tk()
+opcion = IntVar()  # Como StrinVar pero en entero
+
 root.title("Primer Programa con Tkinter")
 root.resizable(0, 0)
 label = Label(root, text="Nombre de usuario")
@@ -22,6 +24,7 @@ label2.grid(row=1, column=0, sticky="w", padx=5, pady=5)
 entry2 = Entry(root)
 entry2.grid(row=1, column=1, padx=5, pady=5)
 entry2.config(justify="center", show="*")
+
 
 label3 = Label(root, text="Ingresa un párrafo")
 label.grid(row=4, column=0, padx=16, pady=16)
