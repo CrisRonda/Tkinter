@@ -31,3 +31,8 @@ Entrada de textos
 <div align="center">
   <img src="./screenshots/editor.png" width="250px" style="align: center">
 </div>
+
+`imagesWithPIL.py`
+<div align="center">
+  <img src="./screenshots/pillow.png" width="150px" style="align: center">
+</div>
